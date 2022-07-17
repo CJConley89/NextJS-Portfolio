@@ -1,6 +1,6 @@
 import React from 'react'
 import esriImg from '../public/assets/projects/ArcGIS_API_Testing.PNG';
-import travelImg from '../public/assets/projects/portfolio2.jpg';
+import travelImg from '../public/assets/projects/travel-blog.png';
 import ProjectItem from '../components/ProjectItem';
 
 const Project = () => {
