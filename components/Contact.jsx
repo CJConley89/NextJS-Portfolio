@@ -6,6 +6,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
+import contactImg from "/../public/assets/projects/portfolio1.jpg";
 
 const Contact = () => {
     const form = useRef();
@@ -26,7 +27,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/projects/portfolio1.jpg" alt="/" width="400" height="500"/>
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={contactImg} alt="/" width="400" height="500"/>
                         </div>
                         <div>
                             <h2 className='py-2'>Christopher J Conley</h2>

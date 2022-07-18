@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import me from "/../public/assets/me.jpg";
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
                 
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className="rounded-xl" src="/../public/assets/me.jpg" alt="picture of me and my cat Church" width="500" height="600"/>
+                <Image className="rounded-xl" src={me} alt="picture of me and my cat Church" width="500" height="600"/>
             </div>
         </div>
     </div>
