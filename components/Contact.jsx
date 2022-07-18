@@ -6,7 +6,7 @@ import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi';
 import emailjs from '@emailjs/browser';
-import contactImg from "../public/assets/projects/portfolio1.jpg";
+import contactImg from "/public/assets/projects/portfolio1.jpg";
 
 const Contact = () => {
     const form = useRef();

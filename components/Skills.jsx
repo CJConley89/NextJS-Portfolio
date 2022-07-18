@@ -1,18 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
-import htmlImg from '../public/assets/skills/html5.png';
-import css3Img from '../public/assets/skills/css3.png';
-import csharpImg from '../public/assets/skills/csharp.png';
-import bootstrapImg from '../public/assets/skills/bootstrap.png';
-import githubImg from '../public/assets/skills/github.png';
-import javascriptImg from '../public/assets/skills/javascript.png';
-import mongoImg from '../public/assets/skills/mongo.png';
-import mysqlImg from '../public/assets/skills/mysql.png';
-import nextImg from '../public/assets/skills/nextjs.png';
-import nodejsImg from '../public/assets/skills/node-js.png';
-import phpImg from '../public/assets/skills/php.png';
-import reactImg from '../public/assets/skills/react.png';
-import tailwindImg from '../public/assets/skills/tailwind.png';
+import htmlImg from '/public/assets/skills/html5.png';
+import css3Img from '/public/assets/skills/css3.png';
+import csharpImg from '/public/assets/skills/csharp.png';
+import bootstrapImg from '/public/assets/skills/bootstrap.png';
+import githubImg from '/public/assets/skills/github.png';
+import javascriptImg from '/public/assets/skills/javascript.png';
+import mongoImg from '/public/assets/skills/mongo.png';
+import mysqlImg from '/public/assets/skills/mysql.png';
+import nextImg from '/public/assets/skills/nextjs.png';
+import nodejsImg from '/public/assets/skills/node-js.png';
+import phpImg from '/public/assets/skills/php.png';
+import reactImg from '/public/assets/skills/react.png';
+import tailwindImg from '/public/assets/skills/tailwind.png';
 
 const Skills = () => {
   return (

@@ -5,7 +5,7 @@ import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {useRouter} from 'next/router';
-import logoImg from "../public/assets/logo.png";
+import logoImg from "/public/assets/logo.png";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
