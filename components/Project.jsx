@@ -1,6 +1,8 @@
 import React from 'react'
 import esriImg from '../public/assets/projects/ArcGIS_API_Testing.PNG';
 import travelImg from '../public/assets/projects/travel-blog.png';
+import netflixImg from '../public/assets/projects/streamflix.png';
+import portfolioImg from '../public/assets/projects/old_portfolio.png';
 import ProjectItem from '../components/ProjectItem';
 
 const Project = () => {
@@ -21,6 +23,18 @@ const Project = () => {
                     backgroundImg={travelImg} 
                     projectUrl="/travel-blog" 
                     languages="Next.js, Node.js, React.js, Sanity.IO, MongoDB" 
+                />
+                <ProjectItem 
+                    title='Original React.js Portfolio' 
+                    backgroundImg={portfolioImg} 
+                    projectUrl="/old" 
+                    languages="Node.js, React.js" 
+                />
+                <ProjectItem 
+                    title='Streamflix (Netflix clone)' 
+                    backgroundImg={netflixImg} 
+                    projectUrl="/streamflix" 
+                    languages="Next.js, Node.js, React.js, Firebase, Firestore, Tailwind.css" 
                 />
             </div>
         </div>
