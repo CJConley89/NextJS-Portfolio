@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import esriImg from '../public/assets/projects/ArcGIS_API_Testing.PNG'
+import netflixImg from '../public/assets/projects/streamflix.png';
 import {RiRadioButtonFill} from 'react-icons/ri';
 
 const esri = () => {
@@ -13,12 +13,12 @@ const esri = () => {
           className='absolute z-1' 
           layout="fill" 
           objectFit='cover' 
-          src={esriImg} 
+          src={netflixImg} 
           alt="/"
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>ArcGIS API Testing</h2>
-          <h3>HTML / CSS / JS / ArcGIS API</h3>
+          <h2 className='py-2'>Flix Streamer</h2>
+          <h3>Next.js / Node.js / React.js / Firebase / Firestore / Tailwind.css / TMDB API</h3>
         </div>
       </div>
 
@@ -26,9 +26,11 @@ const esri = () => {
         <div className='col-span-4'>
           <p className='text-[#294072]'>Project</p>
           <h2>Overview</h2>
-          <p>Showcasing the ArcGIS API to create a map and perform spatial analysis on the geography of the land. This tests adding a point, line, and polygon to the ArcGIS basemap layer and utilizes the Buffer, Intersect, and Union geometry functions. Buffer is used to create a buffer area around the point by a given amount or to a given distance. Intersect then takes the polygon and sees where it will intersect with the buffer and line. Union combines all of the three into one entity allowing the user to create one area. From this point further diving into the API could be done to calculate area, distance, etc. of the selected region of the map.</p>
+          <p>This project was a tutorial for implementing Next.js and Firebase. Firebase authentication was used to allow a user to sign in or register an account. Firestore was used to store the user`&apos;`s information and saved movies.</p>
+          <br />
+          <p>Flix Streamer is designed to be a Netflix clone and look as similar to Netflix as possible. As of 7/19/2022 I have had to take down the hosted site from firebase hosting because it claims it is a `&quot;`too similar.`&quot;` Objective complete? An appeal has been requested since it is only for educational purposes.</p>
           <a 
-            href="https://christopherjconley.com/Side_Projects/ArcGIS.html"
+            href="https://netflix-clone-c595d.firebaseapp.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -63,6 +65,9 @@ const esri = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1'/>Tailwind.css
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1'/>TMDB (The Movie DB) API
               </p>
             </div>
           </div>

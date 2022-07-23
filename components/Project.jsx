@@ -34,7 +34,7 @@ const Project = () => {
                     title='Streamflix (Netflix clone)' 
                     backgroundImg={netflixImg} 
                     projectUrl="/streamflix" 
-                    languages="Next.js, Node.js, React.js, Firebase, Firestore, Tailwind.css" 
+                    languages="Next.js, Node.js, React.js, Firebase, Firestore, Tailwind.css, TMDB" 
                 />
             </div>
         </div>
